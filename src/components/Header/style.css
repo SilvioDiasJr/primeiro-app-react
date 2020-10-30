@@ -1,9 +1,31 @@
 header {
-  background-color: #d34040;
+  background-color: #444444e8;
   color: #fff;
-  height: 60px;
+  height: 80px;
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+nav {
+  margin-right: 70px;
+}
+
+nav a {
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+
+  color: #fff;
+  transition: 0.4s;
+}
+
+nav a:hover {
+  color: #8379a5;
 }
